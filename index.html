@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,13 +21,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#Shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#Backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                    <a class="nav-link " href="#last" tabindex="-1" aria-disabled="true">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -60,7 +60,6 @@
                         <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
-
               </div>
               <div class="carousel-item">
                 <div class="row d-flex align-items-center px-5">
@@ -88,7 +87,7 @@
     </header>
     <main class="container">
          <section class="container overflow-hidden mt-5 categories">
-            <div class="row gx-5">
+            <div class="row g-5">
               <div class="col">
                <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
                    <h1>Watch</h1>
@@ -109,7 +108,7 @@
               </div>
             </div>
         </section>
-        <section class="mt-5">
+        <section id="Shoes" class="mt-5">
             <h3>Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -153,7 +152,7 @@
                 </div>
               </div>
         </section>
-        <section class="mt-5">
+        <section id="Backpack" class="mt-5">
             <h3>Backpack</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -197,7 +196,7 @@
                 </div>
               </div>
         </section>
-        <section style="height: 300px;" class="mt-5 bg-infof d-flex justify-content-center align-items-center">
+        <section id="last" style="height: 300px;" class="mt-5 bg-infof d-flex justify-content-center align-items-center">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <h6>Get updates on sales, specials and more</h6>
@@ -209,10 +208,6 @@
     <footer class="container text-center mt-5">
         <small>©2021. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
     </footer>
-
-
-
-
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
